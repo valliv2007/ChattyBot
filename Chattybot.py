@@ -37,18 +37,18 @@ def test():
              1. To repeat a statement multiple times.
              2. To decompose a program into several small subroutines.
              3. To determine the execution time of a program.
-             4. To interrupt the execution of a program.""" )
+             4. To interrupt the execution of a program.""")
     choice = int(input())
     while choice != 2:
         print('Please, try again.')
         choice = int(input())
-    
-    
+
+
 def end():
     print('Congratulations, have a nice day!')
 
 
-greet('Vasya', '2022') 
+greet('Vasya', '2022')
 remind_name()
 guess_age()
 count()
